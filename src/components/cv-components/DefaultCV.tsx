@@ -51,7 +51,7 @@ const DefaultCV = ({ cvTemplate }: { cvTemplate: CVTemplate }) => {
           </div>
         </div>
         <div className="flex gap-10">
-          <div className="w-[108.04px] grid gap-2">
+          <div className="w-[108.04px] gap-3 flex flex-col">
             {[
               {
                 value: location,

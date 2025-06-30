@@ -59,18 +59,20 @@ export const baseTemplate: CVTemplate = {
     "nab-genai-product-owner": {
       company: "National Australia Bank (NAB)",
       companyDescription:
-        "NAB is one of Australia’s “big four” banks, serving more than 8 million customers. The Group Marketing Gen AI team delivers AI-enabled capabilities that personalise and automate customer communications at scale.",
+        "NAB is one of Australia's \"big four\" banks, serving more than 8 million customers. The Group Marketing Gen AI team delivers AI-enabled capabilities that personalise and automate customer communications at scale.",
       position: "Product Owner – Generative AI (Group Marketing)",
       startDate: "Sep 2023",
       endDate: "Present",
       totalDuration: "1 year 10 months",
       description:
-        "Own the product vision, roadmap and delivery for NAB’s marketing-facing Generative AI portfolio. Lead cross-functional squads, manage vendor evaluations, and ensure governance alignment while shipping AI features that accelerate content production, personalisation and insight generation.",
+        "Brought on to transform NAB's Group Marketing Gen AI from experimental prototypes into production-grade systems that deliver measurable business value. Over 12 months, evolved the program from pure experimentation to scaled product delivery – expanding from 1 stream lead to 4 concurrent workstreams and shifting the narrative from sunk cost to realised ROI. My experience raising organisational AI maturity means I design solutions that work within enterprise constraints while pushing technical boundaries.",
       achievements: [
-        "Delivered NAB’s first bank-wide Gen AI content pipeline, cutting copy-turnaround from 5 days to <24 hours for 40+ marketing squads.",
-        "Piloted the “Synthetic Customers” framework; early tests showed 90 % alignment between AI-generated and human panel feedback, enabling faster creative optimisation.",
-        "Authored a build-vs-buy RFI that shortlisted six vendors and secured A$3 m funding for enterprise rollout of AI-powered content generation.",
-        "Launched an AI-driven ESG compliance checker that reduced webpage review time by 60 % while improving detection consistency.",
+        "Architected and shipped NAB's Multi-Stage Review Agents System – designed AI agents for product fact verification, legal compliance checking, and brand consistency that pre-screen content before human review.",
+        "Designed a Multi-Channel Creative Hub generating content across 9+ channels (EDM, SMS, social, in-app, push, LinkedIn, paid search) – architected the AI engine, brand voice system, and channel-specific formatters.",
+        "Built the Customer Experts Framework – pivoted from synthetic customer personas to reasoning-based customer analysis, designing AI agents that analyse market data to predict customer sentiment and behaviour.",
+        "Developed comprehensive AI feature specifications across 4 quarterly milestones – wrote technical requirements for 20+ AI capabilities including document classification, metric extraction, and performance pattern learning.",
+        "Coached 10+ engineers in prompt engineering, AI guardrails, and evaluation frameworks – hands-on technical mentoring that resulted in 3 production AI services shipped within 6 months.",
+        "Delivered AI systems projected to generate $500k in operational savings in FY25, scaling to $1.5m in FY26 through automated content workflows and reduced manual review cycles."
       ],
       highlights: ["Generative AI Strategy", "Product Management", "MarTech Innovation"],
     },
@@ -89,7 +91,7 @@ export const baseTemplate: CVTemplate = {
         "Architected and developed a method for our front-end applications to generate components from a centralised design system and automate A/B testing. In our sample testing we were able to increase the click-through rate by 22%.",
       ],
       description:
-        "I was the Product Engineer of “Intelligent Navigation”; a workstream of digital products for helping learners navigate the Te Pūkenga network. Here I architected, designed and was lead developer for our full-stack solutions. Creating modular applications that were scalable and embeddable. I centralised elements of Te Pūkenga’s data into a layer able to be leveraged by AI APIs, a Customer Data Platform, a CMS and a complete integration design pattern, all for the purpose of accessing and transforming real-time data in intelligent ways for learners.",
+        "I was the Product Engineer of \"Intelligent Navigation\"; a workstream of digital products for helping learners navigate the Te Pūkenga network. Here I architected, designed and was lead developer for our full-stack solutions. Creating modular applications that were scalable and embeddable. I built the Intelligence Layer – a microservice that interacts with our Customer Data Platform, AI APIs, and CMS to extract and transform real-time data in intelligent ways for learners, enabling personalised user experiences.",
       highlights: ["Solutions Design", "AI Engineering"],
     },
     "cz-digital-experience-lead": {

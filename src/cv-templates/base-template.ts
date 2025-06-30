@@ -1,14 +1,14 @@
 export type CVJSONOutput =
   | {
-      isCV: false;
-      documentType: string;
-      errorMessage: string;
-    }
+    isCV: false;
+    documentType: string;
+    errorMessage: string;
+  }
   | {
-      isCV: true;
-      documentType: string;
-      cv: CVTemplate;
-    };
+    isCV: true;
+    documentType: string;
+    cv: CVTemplate;
+  };
 
 export type CVTemplate = {
   firstName: string;
@@ -56,6 +56,25 @@ export const baseTemplate: CVTemplate = {
   intro:
     "As a Product Engineer with a unique blend of technical expertise and marketing acumen, I specialise in engineering innovative products that transform user experiences and drive business success. My background in mar-tech, combined with a deep understanding of market dynamics, equips me to design and develop products that not only meet but exceed user expectations. My experience in AI research, full-stack development, and process automation has been instrumental in pioneering solutions in the education and training sector. With a proven track record in leveraging technology for strategic product development and a commitment to continuous improvement, I excel in bridging the gap between technical possibilities and market needs, ensuring products are both technically sound and commercially viable.",
   employment: {
+    "nab-genai-product-owner": {
+      company: "National Australia Bank (NAB)",
+      companyDescription:
+        "NAB is one of Australia’s “big four” banks, serving more than 8 million customers. The Group Marketing Gen AI team delivers AI-enabled capabilities that personalise and automate customer communications at scale.",
+      position: "Product Owner – Generative AI (Group Marketing)",
+      startDate: "Sep 2023",
+      endDate: "Present",
+      totalDuration: "1 year 10 months",
+      description:
+        "Own the product vision, roadmap and delivery for NAB’s marketing-facing Generative AI portfolio. Lead cross-functional squads, manage vendor evaluations, and ensure governance alignment while shipping AI features that accelerate content production, personalisation and insight generation.",
+      achievements: [
+        "Delivered NAB’s first bank-wide Gen AI content pipeline, cutting copy-turnaround from 5 days to <24 hours for 40+ marketing squads.",
+        "Piloted the “Synthetic Customers” framework; early tests showed 90 % alignment between AI-generated and human panel feedback, enabling faster creative optimisation.",
+        "Authored a build-vs-buy RFI that shortlisted six vendors and secured A$3 m funding for enterprise rollout of AI-powered content generation.",
+        "Launched an AI-driven ESG compliance checker that reduced webpage review time by 60 % while improving detection consistency.",
+      ],
+      highlights: ["Generative AI Strategy", "Product Management", "MarTech Innovation"],
+    },
+
     "tp-ai-architect": {
       company: "Te Pūkenga",
       position: "Artificial Intelligence Architect",
@@ -68,7 +87,6 @@ export const baseTemplate: CVTemplate = {
         'Developed micro front-end apps embeddable in any of Te Pūkenga\'s 24 businesses, delivering a cohesive network experience. Qualitative research showed a 78% boost in the sentiment "I got exactly what I needed"',
         "Architected our web 'Intelligence Layer' – a microservice for extracting and transforming data across products and users, enhancing with LLMs and passing back to the front-end to power personalisation. In the 6 months following its launch the website conversion rate increased from 1.5% to 3.5%.",
         "Architected and developed a method for our front-end applications to generate components from a centralised design system and automate A/B testing. In our sample testing we were able to increase the click-through rate by 22%.",
-        "Designed and developed a custom CMS, an internal digital product that reduced the time to publish content from 1 week to 4 hours",
       ],
       description:
         "I was the Product Engineer of “Intelligent Navigation”; a workstream of digital products for helping learners navigate the Te Pūkenga network. Here I architected, designed and was lead developer for our full-stack solutions. Creating modular applications that were scalable and embeddable. I centralised elements of Te Pūkenga’s data into a layer able to be leveraged by AI APIs, a Customer Data Platform, a CMS and a complete integration design pattern, all for the purpose of accessing and transforming real-time data in intelligent ways for learners.",
@@ -111,18 +129,18 @@ export const baseTemplate: CVTemplate = {
         "As a Digital Marketing Executive, I collaborated with agencies and internal teams to execute strategically aligned digital campaigns. I tracked key metrics to measure campaign success and derive insights for potential improvements. My duties included managing social media, optimising SEO, and developing digital marketing content. This role honed my skills in digital marketing and paved the way for my transition to the Digital Marketing Lead role.",
       highlights: ["Marketing"],
     },
-    "uxbridge-arts-culture": {
-      company: "UXBRIDGE | Arts & Culture",
-      position: "Operations Assistant",
-      startDate: "May 2015",
-      endDate: "Aug 2019",
-      totalDuration: "4 years 4 months",
-      description:
-        "Providing essential assistance in coordinating and executing our organisations' studios, gallery, and event activities.",
-      highlights: ["Operations"],
-    },
+  //   "uxbridge-arts-culture": {
+  //     company: "UXBRIDGE | Arts & Culture",
+  //     position: "Operations Assistant",
+  //     startDate: "May 2015",
+  //     endDate: "Aug 2019",
+  //     totalDuration: "4 years 4 months",
+  //     description:
+  //       "Providing essential assistance in coordinating and executing our organisations' studios, gallery, and event activities.",
+  //     highlights: ["Operations"],
+  //   },
   },
-  education: [
+    education: [
     {
       institution: "Auckland University of Technology",
       qualification: "Bachelor of Communications Studies",

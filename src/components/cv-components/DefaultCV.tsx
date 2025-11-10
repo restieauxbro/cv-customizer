@@ -134,7 +134,7 @@ const DefaultCV = ({ cvTemplate }: { cvTemplate: CVTemplate }) => {
                 </div>
                 <div className="grow shrink basis-0 flex-col justify-start items-start inline-flex">
                   <div className="flex-col justify-start items-start gap-0.5 flex">
-                    <div className="w-[165px] text-neutral-800 text-[10px] font-normal mb-1">
+                    <div className="text-neutral-800 text-[10px] font-normal mb-1">
                       {position}
                     </div>
                     <div className="justify-start items-center gap-[9px] inline-flex flex-wrap">

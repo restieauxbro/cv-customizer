@@ -52,26 +52,24 @@ export const baseTemplate: CVTemplate = {
   email: "tim.hrest@gmail.com",
   phone: "04 8384 8609",
   location: "Melbourne, VIC",
-  title: "Product Designer and Engineer",
+  title: "Product Owner and Engineer",
   intro:
     "As a Product Engineer with a unique blend of technical expertise and marketing acumen, I specialise in engineering innovative products that transform user experiences and drive business success. My background in mar-tech, combined with a deep understanding of market dynamics, equips me to design and develop products that not only meet but exceed user expectations. My experience in AI research, full-stack development, and process automation has been instrumental in pioneering solutions in the education and training sector. With a proven track record in leveraging technology for strategic product development and a commitment to continuous improvement, I excel in bridging the gap between technical possibilities and market needs, ensuring products are both technically sound and commercially viable.",
   employment: {
     "nab-genai-product-owner": {
       company: "National Australia Bank (NAB)",
-      companyDescription:
-        "NAB is one of Australia's \"big four\" banks, serving more than 8 million customers. The Group Marketing Gen AI team delivers AI-enabled capabilities that personalise and automate customer communications at scale.",
-      position: "Product Owner – Generative AI (Group Marketing)",
-      startDate: "Sep 2023",
-      endDate: "Present",
-      totalDuration: "1 year 10 months",
+      position: "Product Owner – Generative AI",
+      startDate: "May 2024",
+      endDate: "Oct 2025",
+      totalDuration: "1 year 6 months",
       description:
-        "Brought on to transform NAB's Group Marketing Gen AI from experimental prototypes into production-grade systems that deliver measurable business value. Over 12 months, evolved the program from pure experimentation to scaled product delivery – expanding from 1 stream lead to 4 concurrent workstreams and shifting the narrative from sunk cost to realised ROI. My experience raising organisational AI maturity means I design solutions that work within enterprise constraints while pushing technical boundaries.",
+        "I was brought on to transform NAB's Group Marketing Gen AI from prototypes to production-grade systems that deliver business value. Over 12 months, I evolved the program from pure experimentation to scaled product delivery – expanding from 1 stream lead to 4 and shifting the narrative from sunk cost to realised ROI. My part in raising organisational AI maturity here tested my skill for designing solutions that push technical boundaries within enterprise constraints.",
       achievements: [
-        "Architected and shipped NAB's Multi-Stage Review Agents System – designed AI agents for product fact verification, legal compliance checking, and brand consistency that pre-screen content before human review.",
+        "Architected and supported engineering on NAB's Multi-Stage Review Agents System – designed AI agents for product fact verification, legal compliance checking, and brand consistency that pre-screen content before human review.",
         "Designed a Multi-Channel Creative Hub generating content across 9+ channels (EDM, SMS, social, in-app, push, LinkedIn, paid search) – architected the AI engine, brand voice system, and channel-specific formatters.",
-        "Built the Customer Experts Framework – pivoted from synthetic customer personas to reasoning-based customer analysis, designing AI agents that analyse market data to predict customer sentiment and behaviour.",
+        "Solution-designed the Customer Experts Framework – pivoting from fine-tuned customer personas to agentic and reasoning-based customer analysis, designing AI agents that look at market data to predict customer sentiment and behaviour.",
         "Developed comprehensive AI feature specifications across 4 quarterly milestones – wrote technical requirements for 20+ AI capabilities including document classification, metric extraction, and performance pattern learning.",
-        "Coached 10+ engineers in prompt engineering, AI guardrails, and evaluation frameworks – hands-on technical mentoring that resulted in 3 production AI services shipped within 6 months.",
+        "Coached 6+ engineers in prompt engineering, AI guardrails, and evaluation frameworks – hands-on technical mentoring that resulted in 3 production AI services shipped within 6 months.",
         "Delivered AI systems projected to generate $500k in operational savings in FY25, scaling to $1.5m in FY26 through automated content workflows and reduced manual review cycles."
       ],
       highlights: ["Generative AI Strategy", "Product Management", "MarTech Innovation"],
@@ -81,10 +79,10 @@ export const baseTemplate: CVTemplate = {
       company: "Te Pūkenga",
       position: "Artificial Intelligence Architect",
       startDate: "Oct 2021",
-      endDate: "Present",
-      totalDuration: "2 years 5 months",
+      endDate: "Apr 2024",
+      totalDuration: "2 years 7 months",
       companyDescription:
-        "Te Pūkenga is New Zealand's premier vocational education provider undergoing the biggest digital transformation ever seen in the public sector to unify 24 businesses into a single network.",
+        "Te Pūkenga is New Zealand's premier vocational education provider that at the time was undergoing the biggest digital transformation ever seen in the public sector to unify 24 businesses into a single network.",
       achievements: [
         'Developed micro front-end apps embeddable in any of Te Pūkenga\'s 24 businesses, delivering a cohesive network experience. Qualitative research showed a 78% boost in the sentiment "I got exactly what I needed"',
         "Architected our web 'Intelligence Layer' – a microservice for extracting and transforming data across products and users, enhancing with LLMs and passing back to the front-end to power personalisation. In the 6 months following its launch the website conversion rate increased from 1.5% to 3.5%.",
@@ -97,7 +95,7 @@ export const baseTemplate: CVTemplate = {
     "cz-digital-experience-lead": {
       company: "Competenz",
       companyDescription:
-        "Competenz is a B2B Industry Training Organisation in New Zealand serving 32 industry sectors and with over 11,000 business customers. As Digital Marketing Lead I had 1 direct report.",
+        "Competenz is a B2B Industry Training Organisation in New Zealand serving 32 industry sectors and with over 11,000 business customers.",
       position: "Digital Experience Lead",
       startDate: "Oct 2021",
       endDate: "Jun 2022",
@@ -106,8 +104,8 @@ export const baseTemplate: CVTemplate = {
         "Ownership of the customer's digital experience from ad channels to the website, from lead nurture through to conversion, as well as the technology stack of our new platforms. My time at Competenz was focused on building a micro-services architecture to scale personalised experiences driven by data. We automated nurture funnels that set unqualified learners up with recruitment coaching and that integrated with our digital systems. We rebuilt content delivery systems to suit the micro-campaign strategy of the organisation.",
       highlights: ["UX Management", "Full-stack Development"],
       achievements: [
-        "Designed the end-to-end customer experience for our automated nuture journey; taking user retention from 31% to 64%",
-        "Developed revisions to our customer tracking pipeline through the phone team, increasing the accuracy of our data and reducing the time to onboard a new customer by 2 weeks",
+        "Designed the end-to-end customer experience for our automated nuture journey; taking user retention from 31% to 64%.",
+        "Developed revisions to our customer tracking pipeline through the phone team, increasing the accuracy of our data and reducing the time to onboard a new customer by 2 weeks.",
       ],
     },
 
@@ -155,10 +153,10 @@ export const baseTemplate: CVTemplate = {
     "React",
     "Javascript",
     "Typescript",
-    "HTML & CSS",
-    "Node",
+  // "HTML & CSS",
+    "Node js",
     "PostgreSQL",
-    "Figma",
+ //   "Figma",
     "LLM Finetuning",
     "User research",
   ],
